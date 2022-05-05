@@ -56,7 +56,13 @@ const start=`⚠️ Para realizar a consulta digite o comando seguido do número
 
 Por exemplo, para consultar o número 11994301254 envie o comando abaixo:
 
-/consulta 11994301254`
+/consulta 11994301254
+
+⚠️ Para cadastrar o número 
+
+Envie o comando 
+
+/cadastro 11994301254`
 
 bot.on('/start', (msg) => {
     msg.reply.text(start)
